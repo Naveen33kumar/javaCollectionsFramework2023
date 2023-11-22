@@ -11,7 +11,7 @@ public class HashMapBasics {
 		//no order - no indexing
 		//stores values -- key-values<k,v>
 		//duplicate cannot be stores in hashmap
-		//can store n of null values nut only one null key
+		//can store n of null values but only one null key
 		//hashmap is not thread safe
 		//hastable is thread safe
 		
