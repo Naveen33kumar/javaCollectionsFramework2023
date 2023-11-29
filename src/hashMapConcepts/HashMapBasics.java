@@ -13,7 +13,7 @@ public class HashMapBasics {
 		//duplicate cannot be stores in hashmap
 		//can store n of null values but only one null key
 		//hashmap is not thread safe
-		//hastable is thread safe
+		//hastable is not thread safe
 		
 		HashMap<String, String> cap = new HashMap<String, String>();
 		cap.put("India", "delhi");

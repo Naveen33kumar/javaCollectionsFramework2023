@@ -72,5 +72,7 @@ public class HashMapCompare {
 			map7.put(2, "B");
 			map7.put(3, "C");
 			map7.put(4, "D");
+			
+			
 	}
 }
