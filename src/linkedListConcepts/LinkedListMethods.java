@@ -22,8 +22,10 @@ public class LinkedListMethods {
 		names.add("ronaldo");
 		names.add("cena");
 		names.add("rock");
+		names.add(3, "rock");
 		
-		System.out.println(names.size());
+		System.out.println(names.get(2));
+		//System.out.println(names.size());
 		
 		Iterator<String> it = names.iterator();
 		while(it.hasNext())

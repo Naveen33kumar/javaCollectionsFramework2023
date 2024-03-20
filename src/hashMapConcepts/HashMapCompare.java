@@ -1,5 +1,6 @@
 package hashMapConcepts;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 
@@ -62,9 +63,9 @@ public class HashMapCompare {
 			
 	        HashMap<Integer, String> map6 = new HashMap<Integer, String>();
 			
-			map6.put(4, "C");
-			map6.put(5, "A");
-			map6.put(6, "B");
+			map6.put(4, "A");
+			map6.put(5, "B");
+			map6.put(6, "C");
 			
 	        HashMap<Integer, String> map7 = new HashMap<Integer, String>();
 			
@@ -73,6 +74,6 @@ public class HashMapCompare {
 			map7.put(3, "C");
 			map7.put(4, "D");
 			
-			
+			System.out.println(new ArrayList<>(map5.values()).equals(new ArrayList<>(map6.values())));
 	}
 }

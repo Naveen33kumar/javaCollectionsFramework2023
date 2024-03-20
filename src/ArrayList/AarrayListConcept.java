@@ -15,6 +15,7 @@ public class AarrayListConcept {
 		ar.add("Naveen");
 		
 		System.out.println(ar);
+		System.out.println(ar.get(0));
 		System.out.println(ar.get(1));
 		//System.out.println(ar.get(-1)); // negative indexing is not allowed in java
 		System.out.println(ar.size());

@@ -10,10 +10,10 @@ public class HashMapBasics {
 		
 		//no order - no indexing
 		//stores values -- key-values<k,v>
-		//duplicate cannot be stores in hashmap
+		//duplicate key cannot be stored in hashmap(it will not give any exception but it will print the latest values)
 		//can store n of null values but only one null key
 		//hashmap is not thread safe
-		//hastable is not thread safe
+		//hastable is thread safe
 		
 		HashMap<String, String> cap = new HashMap<String, String>();
 		cap.put("India", "delhi");
@@ -43,7 +43,7 @@ public class HashMapBasics {
 		while(it1.hasNext())
 		{
 			Entry<String, String> entry = it1.next();
-			System.out.println("key = " + entry.getKey() + "value =" + entry.getValue());
+			System.out.println("key = " + entry.getKey() + " value =" + entry.getValue());
 		}
 		
 		System.out.println("******************");
